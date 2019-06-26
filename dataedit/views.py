@@ -34,7 +34,7 @@ from dataedit.models import Filter as DBFilter
 from login import models as login_models
 from .models import TableRevision
 
-from dataedit.metadata import load_comment_from_db, read_metadata_from_post
+from dataedit.metadata.parser import load_comment_from_db, read_metadata_from_post
 
 from operator import add
 session = None
